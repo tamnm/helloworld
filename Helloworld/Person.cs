@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Dom;
 using System.Html;
-using HelloWorld.Strings;
+using Core.Text.Extensions;
 
 namespace HelloWorld
 {

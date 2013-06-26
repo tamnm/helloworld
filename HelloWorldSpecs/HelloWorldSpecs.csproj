@@ -51,7 +51,7 @@
     <Folder Include="Web\Bin\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorld.csproj">
+    <ProjectReference Include="..\Helloworld\HelloWorld.csproj">
       <Project>{87212388-0C98-4DAD-B300-C330279C5FE9}</Project>
       <Name>HelloWorld</Name>
     </ProjectReference>

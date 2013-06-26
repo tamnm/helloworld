@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{87212388-0C98-4DAD-B300-C330279C5FE9}</ProjectGuid>
+    <ProjectGuid>{1679A807-8D96-4630-8F43-D3BBA9381410}</ProjectGuid>
     <ProjectTypeGuids>{BE3FC8FB-C7F0-443E-9E6A-AC810000E984};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloWorld</RootNamespace>
-    <AssemblyName>HelloWorld</AssemblyName>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>Core</AssemblyName>
     <TargetFrameworkIdentifier>Blade</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -39,17 +39,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Core\Core.csproj">
-      <Project>{1679A807-8D96-4630-8F43-D3BBA9381410}</Project>
-      <Name>Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View\" />
+    <Compile Include="Text\Extensions\StringHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Blade\Blade.CSharp.targets" />
 </Project>
