@@ -2,7 +2,7 @@
 using System.Dom;
 using System.Html;
 
-namespace HelloWorld.Strings
+namespace Core.Text.Extensions
 {
     public static class StringHelper
     {
